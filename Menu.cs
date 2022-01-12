@@ -205,7 +205,6 @@ namespace TeamManager.Menus
                 case 99:
                     Home();
                     break;
-                    break;
                 default:
                     Supply();
                     break;

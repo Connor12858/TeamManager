@@ -23,6 +23,9 @@ namespace TeamManager.Setup
             foreach(Supply s in Program.SupplyInventory)
             {
                 Console.Clear();
+                Console.ForegroundColor = ConsoleColor.Blue;
+                Console.WriteLine(s.Name);
+                Console.ResetColor();
                 Console.Write("In Stock: ");
                 int q = Convert.ToInt32(Console.ReadLine());
                 Console.Write("In a Case: ");
